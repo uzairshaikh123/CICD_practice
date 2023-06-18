@@ -5,3 +5,5 @@
               steps :
                     - run : node --version
                     - run : npm --version
+                    - uses : actions/checkout@v3
+                    - run : node index.js
